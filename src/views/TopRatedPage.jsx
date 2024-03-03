@@ -19,7 +19,7 @@ export default function TopRatedPage() {
   }, [page])
   return (
     <>
-      <div className='space-y-4 mb-12'>
+      <div className='space-y-4 p-4 mb-12'>
         <h1 className='text-3xl font-bold '>Top Rated Movies</h1>
         <ul className='flex flex-wrap gap-6'>
           {movies.results &&

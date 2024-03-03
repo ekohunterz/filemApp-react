@@ -21,7 +21,7 @@ export default function Card({ movie }) {
               icon='mdi:star'
               fontSize={12}
             />
-            {Math.round(movie.vote_average)}
+            {movie.vote_average.toFixed(1)}
           </div>
         </div>
         <div className='absolute bottom-0 py-2 bg-primary-content/80 w-full opacity-0 group-hover:opacity-100 ease-in-out duration-300'>
